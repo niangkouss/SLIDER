@@ -7,7 +7,8 @@ import Slider from './components/slider'
 let images=[
     {src:require('./img/1.jpg')},
     {src:require('./img/2.jpg')},
-    {src:require('./img/3.jpg')}
+    {src:require('./img/3.jpg')},
+    {src:require('./img/1.jpg')}
 ];
 ReactDOM.render((
     <Slider

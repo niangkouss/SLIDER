@@ -10,7 +10,7 @@ export default class Dots extends React.Component{
                 <div className="dots">
                     {
                         this.props.images.map((item,index)=>(
-                            <span key={index} className={"dot "+(index==this.props.pos?'active':'')} onClick={()=>this.props.turn(index-this.props.pos)}></span>
+                            <span key={index} className={index==this.props.images.length-1?'':((index==this.props.pos)||(this.props.pos==this.props.images.length-1&&index==0)?'active dot':'dot')} onClick={()=>this.props.turn(index-this.props.pos)}></span>
                         ))
                     }
                 </div>
