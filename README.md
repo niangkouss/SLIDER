@@ -10,3 +10,9 @@ node_modules
 npm-debug.log
 ```
 ##配置文件
+1. .babelrc
+2. webpack.config.js
+
+## 组件功能划分
+1. 先确定好组件要实现的功能和最终封装好的结果
+2. 组件物理拆分,最终引入至组件.js
